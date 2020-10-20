@@ -54,15 +54,19 @@ h2 {
 }
 
 /* Title Image */
-
+/* changing z-index, to make title image go behind the features section */
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute; /*setting position to absolute for z-index to work*/ 
 }
 
 /* Features section font-icons */
 #features {
     padding: 7% 15%;
+    background-color: #fff; /*make feature section un-transparent*/
+    position: relative;
+    z-index: 1;
 }
 
 .feature-div {
