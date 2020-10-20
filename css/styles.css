@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .heading {
@@ -54,19 +54,19 @@ h2 {
 }
 
 /* Title Image */
-/* changing z-index, to make title image go behind the features section */
+/* changing CSS-stacking order for title image to go behind the features section*/
 .title-image {
     width: 60%;
     transform: rotate(25deg);
-    position: absolute; /*setting position to absolute for z-index to work*/ 
+    position: absolute;
+    right: 30%; /* align title image with top nav bar */
 }
 
 /* Features section font-icons */
 #features {
     padding: 7% 15%;
-    background-color: #fff; /*make feature section un-transparent*/
+    background-color: #fff;
     position: relative;
-    z-index: 1;
 }
 
 .feature-div {
