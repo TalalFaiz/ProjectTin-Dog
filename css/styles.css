@@ -132,3 +132,16 @@ h2 {
 .pricing-column{
     padding: 3% 2%;
 }
+
+/* making title section responsive on tablet size and mobile size  */
+@media (max-width: 1028px) {
+    
+    #title {
+        text-align: center;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
