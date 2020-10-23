@@ -11,6 +11,7 @@ p {
     color: #8F8F8F;
 }
 
+
 /* Headings */
 .lg-heading{
     font-size: 3.5rem;
@@ -31,15 +32,22 @@ p {
 }
 
 
-/* Title Section */
-#title {
+/* Colored & White Sections */
+.colored-section {
     background-color: #FF4C68;
     color: #FFF;
-    text-align: left;
 }
+
+.white-section {
+    background-color: #FFF;
+}
+
+
+/* Title Section */
 
 #title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 
 /* Navigation Bar */
@@ -95,21 +103,14 @@ p {
 }
 
 .feature-heading {
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 1.5rem;
-}
-
-.feature-description {
-    color: #8F8F8F;
 }
 
 
 /* Testimonials Section */
 #testimonials {
     background-color: #EF8172;
-    color: #FFF;
-
 }
 
 .testimonials-img {
@@ -137,11 +138,6 @@ p {
     padding: 3% 2%;
 }
 
-/* Call to Action */
-#cta {
-    background-color: #FF4C68;
-    color: #FFF;
-}
 
 /* Footer Section */
 .social-icons {
